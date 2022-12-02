@@ -1,3 +1,31 @@
+		button{
+		border-radius: 10px;
+  		border: none;
+  		padding: 10px 10px 14px 10px;
+  		color: #1e2325;
+  		border-radius: 10px;
+  		font-size: 1.2em;
+  		font-weight: 200;
+  		transition: all 0.2s;
+  		margin: 5px;
+  		border-bottom: 0px solid #eee;
+  		cursor:pointer;
+  		text-align: center;
+  		justify-content: space-between;
+  		display: flex;
+
+		}
+		button:active{
+		  transform: scaleX(0.9) translateY(4px);
+		}
+		button{
+		  background: orange;
+		}
+		button:not(:active){
+		  box-shadow: 0 -4px 0 rgba(0, 0, 0, 0.18) inset;
+		}	
+
+
 *{
 	margin: 0;
 	font-family: sans-serif;
